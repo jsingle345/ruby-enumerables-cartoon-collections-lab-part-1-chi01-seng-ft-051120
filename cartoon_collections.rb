@@ -11,7 +11,6 @@ def list_dwarves(array)
   i = 1
   
   array.each_with_index { |array, i| puts "#{array}"}
-  i++
 end
 
 
