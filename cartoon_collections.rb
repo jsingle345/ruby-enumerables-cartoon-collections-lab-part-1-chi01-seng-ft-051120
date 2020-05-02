@@ -9,9 +9,9 @@ end
 
 def list_dwarves(array)
   i = 1
-  i++
-  array.each_with_index { |array, i| puts "#{array}"}
   
+  array.each_with_index { |array, i| puts "#{array}"}
+  i++
 end
 
 
